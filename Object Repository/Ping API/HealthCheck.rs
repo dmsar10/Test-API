@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Returns the ids of all the bookings that exist within the API. Can take optional query strings to search and return a subset of booking ids.</description>
-   <name>DeleteBooking</name>
+   <description>A simple health check endpoint to confirm whether the API is up and running.</description>
+   <name>HealthCheck</name>
    <tag></tag>
-   <elementGuidId>f34add6a-1acd-4a4a-8680-c9aa8a62d09d</elementGuidId>
+   <elementGuidId>34093ba7-fcfa-431d-9a3d-ad428a0cc644</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
    <katalonVersion>8.5.5</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://restful-booker.herokuapp.com/booking/10212</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>https://restful-booker.herokuapp.com/ping</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
