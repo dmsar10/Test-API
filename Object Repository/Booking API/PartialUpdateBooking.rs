@@ -31,11 +31,27 @@
       <value>application/json</value>
       <webElementGuid>bc35f8ff-23b4-4822-a8a3-1cd33c314481</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Cookie</name>
+      <type>Main</type>
+      <value>token=&lt;token_value></value>
+      <webElementGuid>bcf9037b-d1f2-4ae3-b3a4-c6c693e683f2</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Basic YWRtaW46cGFzc3dvcmQxMjM=</value>
+      <webElementGuid>db10126d-bd73-4504-9adc-b0f8715fa752</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.5.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://restful-booker.herokuapp.com/booking/1</restUrl>
+   <restUrl>https://restful-booker.herokuapp.com/booking/10212</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
